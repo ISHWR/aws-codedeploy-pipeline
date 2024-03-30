@@ -11,7 +11,9 @@ if [ "$BITBUCKET_BRANCH" != "$BITBUCKET_BRANCH_CHECK" ]
 then
     echo ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
     echo "Branch Names are not matching"
-    echo ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+    echo ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
     exit 1
 fi
+
+# Ishwar Bhumbak Pipeline
 
